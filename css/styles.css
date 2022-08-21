@@ -1,11 +1,36 @@
 body {
     margin: 0;
+    text-align: center;
 }
 
 h1 {
-    margin-top: 0;
+    margin-top: 0 auto 0 auto;
 }
 
 div {
-    background-color: #E7F6F2;
+    background-color: #395B64;
+}
+
+.topContainer {
+    padding-top: 200px;
+}
+
+.topCloud {
+    position: absolute;
+    width: 700px;
+    margin-top: 50px;
+    margin-right: 50px;
+    opacity: 50%;
+}
+
+.bottomCloud {
+    position: absolute;
+    width: 500px;
+    margin-left: 300px;
+    margin-bottom: 300px;
+    opacity: 50%;
+}
+
+.mountain {
+    max-width: 100%;
 }
